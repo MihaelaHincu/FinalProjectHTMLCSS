@@ -13,7 +13,9 @@ $(".expand").on("click", function () {
 });
 
 function hamburgerNav() {
+
     var x = document.getElementById("links");
+    x.style.display === "block"
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
