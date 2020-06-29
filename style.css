@@ -578,13 +578,6 @@ i.fa-link {
         padding-right: 20px;
     }
 
-
-    /* 
-    nav.top-links {
-        float: right;
-
-    } */
-
     header a:hover {
         color: #aab5cb;
     }
@@ -633,7 +626,7 @@ i.fa-link {
 }
 
 /*------------------- MOBILE ------------------*/
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 376px) and (max-width: 599px) {
     .custom_overlay .carousel-title {
         font-size: 15px;
     }
@@ -754,6 +747,139 @@ i.fa-link {
     .parent {
         transform: scale(0.9);
         padding: 0px;
+    }
+
+    .thanks {
+        margin-top: -20px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .custom_overlay .carousel-title {
+        font-size: 10px;
+    }
+
+    .custom_overlay p {
+        font-size: 10px;
+        margin-bottom: 3px;
+        width: 70%;
+    }
+
+    #container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .mobile-align {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        overflow: hidden;
+        position: relative;
+        display: inline;
+        display: block;
+    }
+
+    header a.icon {
+        display: inline;
+    }
+
+    nav.top-links {
+        width: 100%;
+        text-align: center;
+        background: black;
+    }
+
+    .sort-by {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .top-links,
+    nav.navigation {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    .top-links ul li {
+        color: #aab5cb;
+        padding: 10px;
+        font-size: 9px;
+        display: block;
+    }
+
+    header a.icon {
+        color: black;
+        float: right
+    }
+
+    .carousel-button {
+        transform: scale(0.5);
+        padding: 10px;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+
+    .owl-prev span,
+    .owl-next span {
+        font-size: 2rem;
+    }
+
+    .owl-prev {
+        left: 1rem;
+    }
+
+    .owl-next {
+        right: 1rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 14px;
+    }
+
+    .parent {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-flow: column;
+    }
+
+    .html-css-jq-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .container .item {
+        transform: scale(0.7);
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .parent {
+        transform: scale(0.9);
+        padding: 0px;
+    }
+
+    .parent p button {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .last {
+        text-align: center;
     }
 
     .thanks {
