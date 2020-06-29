@@ -1,11 +1,15 @@
 $(".expand").on("click", function () {
+    $(".accordion").css("background-color", " #677ca3")
     $(".right-arrow").text("⮟");
+
     $(".detail:visible").slideUp();
     if (!$(this).next().is(":visible")) {
-
+        $(this).css("background-color", "black");
         $(this).next().slideDown(200);
         $(this).find(".right-arrow").text("⮝");
     }
+
+
 });
 
 function hamburgerNav() {
@@ -16,7 +20,6 @@ function hamburgerNav() {
         x.style.display = "block";
     }
 }
-
 
 var num = 90; //number of pixels before modifying styles
 
