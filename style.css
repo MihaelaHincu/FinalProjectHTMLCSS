@@ -59,8 +59,8 @@ div.logo {
     background-repeat: no-repeat;
     background-size: contain;
     width: 60px;
-    height: 50px;
-    margin: 10px 0 10px 0;
+    height: 70px;
+    margin: 10px 20px 10px 0;
 }
 
 .html-logo-top {
@@ -457,7 +457,6 @@ div.item .project-text {
 i.fa-angle-down,
 .right-arrow {
     float: right;
-    color: rgb(255, 255, 255);
 }
 
 /* ====== MAIN SECTION END ====== */
@@ -547,8 +546,9 @@ i.fa-angle-down,
 
 .parent p {
     width: 100%;
-    line-height: 1.5;
+    line-height: 2;
     color: black;
+    font-weight: bold;
 }
 
 .smaller-text {
@@ -561,7 +561,8 @@ i.fa-angle-down,
 
 .parent p button {
     background-color: #677ba3;
-    padding: 10px;
+    padding: 20px;
+    width: 180px;
     border: none;
     border-radius: 4px;
     color: white;
