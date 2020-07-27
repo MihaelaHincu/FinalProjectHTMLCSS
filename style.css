@@ -444,6 +444,7 @@ i.fa-angle-down,
 .FAQ {
     background-color: #c1cada;
     min-height: 800px;
+    margin-top: 90px;
 }
 
 .FAQ h2 {
@@ -660,7 +661,7 @@ i.fa-link {
     -webkit-box-direction: normal;
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
-    margin-top: -100px;
+    margin-top: -40px;
     z-index: 2;
     opacity: 0.8;
 }
