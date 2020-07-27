@@ -249,7 +249,6 @@ i.fa-home:active {
     margin-right: auto;
     margin-bottom: 20px;
     width: 40%;
-
     font-weight: 100;
 }
 
@@ -780,7 +779,7 @@ i.fa-link {
         margin-bottom: 40px;
     }
 
-    .container .item {
+    .cards .item {
         -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
@@ -813,7 +812,7 @@ i.fa-link {
         width: 60%;
     }
 
-    #container {
+    .container {
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -959,10 +958,10 @@ i.fa-link {
     .custom_overlay p {
         font-size: 10px;
         margin-bottom: 3px;
-        width: 70%;
+        width: 84%;
     }
 
-    #container {
+    .container {
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -978,14 +977,14 @@ i.fa-link {
         align-items: center;
     }
 
-    header {
+    .header {
         overflow: hidden;
         position: relative;
         display: inline;
         display: block;
     }
 
-    header a.icon {
+    .header a.icon {
         display: inline;
     }
 
@@ -1016,7 +1015,7 @@ i.fa-link {
         display: block;
     }
 
-    header a.icon {
+    .header a.icon {
         color: black;
         float: right
     }
