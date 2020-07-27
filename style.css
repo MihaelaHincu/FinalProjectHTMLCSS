@@ -350,9 +350,8 @@ h3 {
 .cards .item {
     position: relative;
     overflow: hidden;
-    /* width: 30%;
-    max-height: 295px; */
-    height: 350px;
+    width: 410px;
+    height: 295px;
     overflow: hidden;
     margin-top: 65px;
     text-align: center;
