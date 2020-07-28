@@ -375,9 +375,9 @@ h3 {
 }
 
 .cards .item img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-height: 350px;
+    /* -o-object-fit: cover; */
+    /* object-fit: cover; */
+    max-height: 300px;
     opacity: 0.5;
 
     /* -webkit-filter: grayscale(100%);
@@ -404,19 +404,15 @@ h3 {
 
 div.item.blue {
     background-color: #512078;
-    /* opacity: 60%; */
 }
 
 
 div.item.red {
     background-color: #d85879;
-    /* opacity: 58%; */
 }
 
 div.item.green {
     background-color: #090909;
-    /* opacity: 47%; */
-
 }
 
 div.item * {
