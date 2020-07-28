@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
     <title>IMC proba</title>
 </head>
 
@@ -68,7 +68,68 @@
             </ul>
         </div>
     </nav>
-    <div class="owl-carousel owl-theme owl-nav full-width">
+
+    <!-- <div class="carousel" id="wrapper">
+        <div class="">
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+            <div><img class="carousel-img" src="img/owlimg.jpg" alt=""></div>
+        </div>
+    </div> -->
+    <div id="homepage-slider">
+        <div class="carousel">
+
+            <div class="custom_overlay_wrapper item"><img class="carousel-img" src="img/owlimg.jpg" />
+                <div class="custom_overlay"><span class="custom_overlay_inner">
+                        <p class="carousel-title">Creative <span>design</span></p>
+                        <p class="carousel-paragraph">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Labore,
+                            officiis cupiditate! Libero
+                            aspernatur quos iusto ut, labore facilis ipsum? Sequi laudantium
+                            nostrum.</p>
+                        <a href="https://www.linkedin.com/in/mihaela-h/" target="_blank"><button
+                                class="carousel-button">learn more <span>
+                                    ></span>
+                            </button></a>
+                    </span></div>
+            </div>
+
+            <div class="custom_overlay_wrapper item"><img class="carousel-img" src="img/owlimg.jpg" />
+                <div class="custom_overlay"><span class="custom_overlay_inner">
+                        <p class="carousel-title">Creative <span>design</span></p>
+                        <p class="carousel-paragraph">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Labore,
+                            officiis cupiditate! Libero
+                            aspernatur quos iusto ut, labore facilis ipsum? Sequi laudantium
+                            nostrum.</p>
+                        <a href="https://www.linkedin.com/in/mihaela-h/" target="_blank"><button
+                                class="carousel-button">learn more <span>
+                                    ></span>
+                            </button></a>
+                    </span></div>
+            </div>
+
+
+            <div class="custom_overlay_wrapper item"><img class="carousel-img" src="img/owlimg.jpg" />
+                <div class="custom_overlay"><span class="custom_overlay_inner">
+                        <p class="carousel-title">Creative <span>design</span></p>
+                        <p class="carousel-paragraph">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Labore,
+                            officiis cupiditate! Libero
+                            aspernatur quos iusto ut, labore facilis ipsum? Sequi laudantium
+                            nostrum.</p>
+                        <a href="https://www.linkedin.com/in/mihaela-h/" target="_blank"><button
+                                class="carousel-button">learn more <span>
+                                    ></span>
+                            </button></a>
+                    </span></div>
+            </div>
+        </div>
+
+        <!-- <div class="owl-carousel owl-theme owl-nav full-width">
         <div class="custom_overlay_wrapper item"><img src="img/owlimg.jpg" alt="">
             <div class="custom_overlay"><span class="custom_overlay_inner">
                     <p class="carousel-title">Creative <span>design</span></p>
@@ -113,273 +174,251 @@
                         </button></a>
                 </span></div>
         </div>
-    </div>
+    </div> -->
 
-    <section>
-        <div class="container ">
-            <div class="margin-top">
-                <h2>Our projects</h2>
-                <div class="sort-by">
-                    <h3>sort by</h3>
-                    <button class="select">Newest Entries <i class="fas fa-angle-down"></i></button>
-                </div>
-
-
-                <div class="cards padding-left-right">
-                    <div class="item blue">
-                        <img src="img/project-photo-1.jpg" />
-                        <span class="project-text">project name</span>
+        <section>
+            <div class="container ">
+                <div class="margin-top">
+                    <h2>Our projects</h2>
+                    <div class="sort-by">
+                        <h3>sort by</h3>
+                        <button class="select">Newest Entries <i class="fas fa-angle-down"></i></button>
                     </div>
 
-                    <div class="item green">
-                        <img src="img/project-photo-2.jpg" />
-                        <span class="project-text">project name</span>
-                    </div>
-                    <div class="item red">
-                        <img src="img/project-photo-1.jpg" />
-                        <span class="project-text">project name</span>
+
+                    <div class="cards padding-left-right">
+                        <div class="item blue">
+                            <img src="img/project-photo-1.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
+
+                        <div class="item green">
+                            <img src="img/project-photo-2.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
+                        <div class="item red">
+                            <img src="img/project-photo-1.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
+
+                        <div class="item red">
+                            <img src="img/project-photo-1.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
+
+                        <div class="item blue">
+                            <img src="img/project-photo-2.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
+                        <div class="item green">
+                            <img src="img/project-photo-1.jpg" />
+                            <span class="project-text">project name</span>
+                        </div>
                     </div>
 
-                    <div class="item red">
-                        <img src="img/project-photo-1.jpg" />
-                        <span class="project-text">project name</span>
-                    </div>
-
-                    <div class="item blue">
-                        <img src="img/project-photo-2.jpg" />
-                        <span class="project-text">project name</span>
-                    </div>
-                    <div class="item green">
-                        <img src="img/project-photo-1.jpg" />
-                        <span class="project-text">project name</span>
-                    </div>
                 </div>
 
             </div>
-
-        </div>
-    </section>
+        </section>
 
 
-    <div class="FAQ full-width ">
-        <div class="container">
-            <h2>got questions?</h2>
-            <div class="accordion-wrapper padding-left-right">
-                <button class="accordion expand">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span class="right-arrow">⮟</span>
-                    </p>
-                </button>
-                <div class="panel detail">
-                    <div class="parent ">
-                        <div class="html-css-jq-logo"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente temporibus
-                            reprehenderit, nesciunt earum dolore architecto. Ab, asperiores numquam harum minima
-                            temporibus nostrum soluta et consectetur architecto quod! Impedit hic voluptates
-                            aspernatur
-                            ab in, repellendus eum veniam iste veritatis quaerat, consequatur corrupti optio! Id
-                            iure
-                            illo inventore perferendis corrupti mollitia blanditiis voluptatum ut deleniti optio
-                            impedit
-                            deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium aliquid
-                            corporis.<br>
-                            <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Odit
-                                numquam ut natus
-                                nostrum
-                                exercitationem perspiciatis?</span> <a
-                                href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
-                                target="_blank"> <button>DO SOMETHING</button></a>
+        <div class="FAQ full-width ">
+            <div class="container">
+                <h2>got questions?</h2>
+                <div class="accordion-wrapper padding-left-right">
+                    <button class="accordion expand">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span class="right-arrow">⮟</span>
                         </p>
+                    </button>
+                    <div class="panel detail">
+                        <div class="parent ">
+                            <div class="html-css-jq-logo"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente temporibus
+                                reprehenderit, nesciunt earum dolore architecto. Ab, asperiores numquam harum minima
+                                temporibus nostrum soluta et consectetur architecto quod! Impedit hic voluptates
+                                aspernatur
+                                ab in, repellendus eum veniam iste veritatis quaerat, consequatur corrupti optio! Id
+                                iure
+                                illo inventore perferendis corrupti mollitia blanditiis voluptatum ut deleniti optio
+                                impedit
+                                deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium aliquid
+                                corporis.<br>
+                                <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Odit
+                                    numquam ut natus
+                                    nostrum
+                                    exercitationem perspiciatis?</span> <a
+                                    href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
+                                    target="_blank"> <button>DO SOMETHING</button></a>
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <button class="accordion expand">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="right-arrow">⮟</span>
-                    </p>
-                </button>
-                <div class="panel detail">
-                    <div class="parent ">
-                        <div class="html-css-jq-logo"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                            sapiente temporibus
-                            reprehenderit, nesciunt earum dolore architecto. Ab, asperiores
-                            numquam harum minima
-                            temporibus nostrum soluta et consectetur architecto quod! Impedit
-                            hic voluptates
-                            aspernatur
-                            ab in, repellendus eum veniam iste veritatis quaerat, consequatur
-                            corrupti optio! Id
-                            iure
-                            illo inventore perferendis corrupti mollitia blanditiis voluptatum
-                            ut deleniti optio
-                            impedit
-                            deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium
-                            aliquid corporis.<br>
-                            <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.
-                                Odit
-                                numquam ut natus
-                                nostrum
-                                exercitationem perspiciatis?</span> <a
-                                href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
-                                target="_blank"> <button>DO SOMETHING</button></a>
+                    <button class="accordion expand">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="right-arrow">⮟</span>
                         </p>
+                    </button>
+                    <div class="panel detail">
+                        <div class="parent ">
+                            <div class="html-css-jq-logo"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                                sapiente temporibus
+                                reprehenderit, nesciunt earum dolore architecto. Ab, asperiores
+                                numquam harum minima
+                                temporibus nostrum soluta et consectetur architecto quod! Impedit
+                                hic voluptates
+                                aspernatur
+                                ab in, repellendus eum veniam iste veritatis quaerat, consequatur
+                                corrupti optio! Id
+                                iure
+                                illo inventore perferendis corrupti mollitia blanditiis voluptatum
+                                ut deleniti optio
+                                impedit
+                                deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium
+                                aliquid corporis.<br>
+                                <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Odit
+                                    numquam ut natus
+                                    nostrum
+                                    exercitationem perspiciatis?</span> <a
+                                    href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
+                                    target="_blank"> <button>DO SOMETHING</button></a>
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <button class="accordion expand">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="right-arrow">⮟</span>
-                    </p>
-                </button>
-                <div class="panel detail">
-                    <div class="parent ">
-                        <div class="html-css-jq-logo"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                            sapiente temporibus
-                            reprehenderit, nesciunt earum dolore architecto. Ab, asperiores
-                            numquam harum minima
-                            temporibus nostrum soluta et consectetur architecto quod! Impedit
-                            hic voluptates
-                            aspernatur
-                            ab in, repellendus eum veniam iste veritatis quaerat, consequatur
-                            corrupti optio! Id
-                            iure
-                            illo inventore perferendis corrupti mollitia blanditiis voluptatum
-                            ut deleniti optio
-                            impedit
-                            deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium
-                            aliquid corporis.<br>
-                            <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.
-                                Odit
-                                numquam ut natus
-                                nostrum
-                                exercitationem perspiciatis?</span> <a
-                                href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
-                                target="_blank"> <button>DO SOMETHING</button></a>
+                    <button class="accordion expand">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="right-arrow">⮟</span>
                         </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="footer_inner">
-                <div class="footer-links margin-top">
-                    <div class="list-one red-color"> <span>good job</span>
-                        <ul>
-                            <a href="">
-                                <li> <i class="fas fa-link fa-xs"></i> Five lists</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Full of links</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> More than one color</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div class="list-one blue-color"> <span> Looks great</span>
-                        <ul>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> These bullets</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Make it a little bit difficult</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> But i have fate</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div class="list-one red-color"> <span>Keep it like this</span>
-                        <ul>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Underdered list?</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Is the way to go?</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> It's your choice</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div class="list-one blue-color"> <span>Nice progress</span>
-                        <ul>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Seems like you got it</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Easy,huh?</li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Eh, easy for you..</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div class="list-one red-color">
-                        <span> You're almost done</span>
-                        <ul>
-                            <a href="">
-                                <li><i class="fas fa-link fa-xs"></i> Just 2 items more </li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link  fa-xs"></i> And now it's time </li>
-                            </a>
-                            <a href="">
-                                <li><i class="fas fa-link  fa-xs"></i> To review your work :) </li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="last">
-                    <p>Opacity is easy these days, isn't it?</p>
-                </div>
-                <div class="thanks">
-                    <img src="img/html5-logo2.png" alt="">
-                    <div>
-                        <p>Thanks for your effort</p>
+                    </button>
+                    <div class="panel detail">
+                        <div class="parent ">
+                            <div class="html-css-jq-logo"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                                sapiente temporibus
+                                reprehenderit, nesciunt earum dolore architecto. Ab, asperiores
+                                numquam harum minima
+                                temporibus nostrum soluta et consectetur architecto quod! Impedit
+                                hic voluptates
+                                aspernatur
+                                ab in, repellendus eum veniam iste veritatis quaerat, consequatur
+                                corrupti optio! Id
+                                iure
+                                illo inventore perferendis corrupti mollitia blanditiis voluptatum
+                                ut deleniti optio
+                                impedit
+                                deserunt at aut, repudiandae dolore ipsum culpa incidunt accusantium
+                                aliquid corporis.<br>
+                                <span class="smaller-text">Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Odit
+                                    numquam ut natus
+                                    nostrum
+                                    exercitationem perspiciatis?</span> <a
+                                    href="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880515/Im-Doing-My-Best_800x800_SEPS-1000x1000.jpg"
+                                    target="_blank"> <button>DO SOMETHING</button></a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <script src="https://kit.fontawesome.com/3ad7938b5b.js" crossorigin="anonymous"></script>
-    <script src="owlcarousel/jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="jvs.js"></script>
+        <footer>
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer-links margin-top">
+                        <div class="list-one red-color"> <span>good job</span>
+                            <ul>
+                                <a href="">
+                                    <li> <i class="fas fa-link fa-xs"></i> Five lists</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Full of links</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> More than one color</li>
+                                </a>
+                            </ul>
+                        </div>
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 1,
-                    nav: true
-                },
-                1000: {
-                    items: 1,
-                    nav: true,
-                    loop: true,
-                    dotsEach: true,
-                }
-            }
-        })
-    </script>
+                        <div class="list-one blue-color"> <span> Looks great</span>
+                            <ul>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> These bullets</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Make it a little bit difficult</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> But i have fate</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="list-one red-color"> <span>Keep it like this</span>
+                            <ul>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Underdered list?</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Is the way to go?</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> It's your choice</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="list-one blue-color"> <span>Nice progress</span>
+                            <ul>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Seems like you got it</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Easy,huh?</li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Eh, easy for you..</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="list-one red-color">
+                            <span> You're almost done</span>
+                            <ul>
+                                <a href="">
+                                    <li><i class="fas fa-link fa-xs"></i> Just 2 items more </li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link  fa-xs"></i> And now it's time </li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fas fa-link  fa-xs"></i> To review your work :) </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="last">
+                        <p>Opacity is easy these days, isn't it?</p>
+                    </div>
+                    <div class="thanks">
+                        <img src="img/html5-logo2.png" alt="">
+                        <div>
+                            <p>Thanks for your effort</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/3ad7938b5b.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="jvs.js"></script>
+
 </body>
 
 </html>

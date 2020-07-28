@@ -156,62 +156,15 @@ i.fa-home:active {
     color: #954e61;
 }
 
-/* OWL */
-
-.owl-carousel {
-    position: relative;
-
-}
-
-.owl-prev,
-.owl-next {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    transform: translateY(-70%);
-}
-
-.owl-prev {
-    left: 10rem;
-}
-
-.owl-next {
-    right: 10rem;
-}
-
-.owl-prev span,
-.owl-next span {
-    font-size: 4.5rem;
-    color: #ededf0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: unset;
-}
-
-.owl-prev span:active,
-.owl-next span:active {
-
-    color: #c7c7c7;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: #eff0f2;
-}
-
-.owl-carousel .owl-stage {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+/*====== CAROUSEL ======*/
+.carousel-img {
     width: 100%;
+
 }
 
-.owl-carousel .item img {
-    width: 100%;
-    height: auto;
+#homepage-slider {
+
+    overflow: hidden;
 }
 
 .custom_overlay_wrapper {
@@ -297,29 +250,8 @@ i.fa-home:active {
     margin-left: 10px;
 }
 
-.owl-dots {
-    position: absolute;
-    bottom: 10px;
-    left: 25%;
-    right: 25%;
-    z-index: 22;
-    margin-bottom: 85px;
-}
 
-.owl-carousel .owl-dots .owl-dot,
-.owl-carousel .owl-nav [class*="owl-"]:focus {
-    outline: none;
-}
-
-.owl-carousel .owl-dots .owl-dot span {
-    background: transparent;
-    border: 1px solid white;
-    -webkit-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-
-/*====== OWL END ======*/
+/*====== CAROUSEL END ======*/
 
 
 /* ====== MAIN SECTION ====== */

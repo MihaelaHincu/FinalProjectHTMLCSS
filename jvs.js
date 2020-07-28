@@ -32,3 +32,16 @@ $(window).bind('scroll', function () {
         $('.navigation').removeClass('fixed');
     }
 });
+
+
+
+$(document).ready(function () {
+    $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        cssEase: 'linear',
+        swipe: true,
+        arrows: true,
+        autoplay: false
+    });
+});
