@@ -158,8 +158,9 @@ i.fa-home:active {
 
 /*====== CAROUSEL ======*/
 .carousel-img {
-    width: 100%;
-
+    background-image: url(img/owlimg.jpg);
+    height: 85vh;
+    background-size: cover;
 }
 
 #homepage-slider {
@@ -671,22 +672,47 @@ i.fa-link {
 
 @media only screen and (min-width: 600px) and (max-width: 999px) {
     .custom_overlay .carousel-title {
-        font-size: 15px;
+        font-size: 30px;
+    }
+
+
+    .custom_overlay .carousel-paragraph {
+        font-size: 20px;
     }
 
     .custom_overlay p {
-        font-size: 13px;
+
         margin-bottom: 10px;
-        width: 60%;
+        width: 80%;
     }
 
-    /* #container {
-        padding-left: 20px;
-        padding-right: 20px;
-    } */
+    .slick-dots {
+        bottom: -90px;
+    }
 
     header a:hover {
         color: #aab5cb;
+    }
+
+    nav.top-links li {
+
+        font-size: 13px;
+    }
+
+    div.logo {
+
+        width: 46px;
+        height: 55px;
+
+    }
+
+    .html-logo-top {
+        font-size: 18px;
+    }
+
+    nav li {
+        margin-right: 16px;
+        font-size: 13px;
     }
 
     .carousel-button {
@@ -695,16 +721,17 @@ i.fa-link {
         transform: scale(0.9);
     }
 
-    .owl-prev span,
-    .owl-next span {
-        font-size: 3rem;
+    .slick-prev:before,
+    .slick-next:before {
+
+        font-size: 32px;
     }
 
-    .owl-prev {
+    .slick-prev {
         left: 2rem;
     }
 
-    .owl-next {
+    .slick-next {
         right: 2rem;
     }
 
@@ -742,18 +769,37 @@ i.fa-link {
 /*------------------- MOBILE ------------------*/
 @media only screen and (min-width: 376px) and (max-width: 599px) {
     .custom_overlay .carousel-title {
-        font-size: 15px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .custom_overlay p {
-        font-size: 13px;
+
         margin-bottom: 10px;
-        width: 60%;
+        width: 70%;
+    }
+
+    .custom_overlay .carousel-paragraph {
+        font-size: 15px;
     }
 
     .container {
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .slick-prev {
+        left: 1rem;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+
+        font-size: 2rem;
+    }
+
+    .slick-next {
+        right: 1rem;
     }
 
     .mobile-align {
@@ -822,22 +868,10 @@ i.fa-link {
         transform: scale(0.7);
     }
 
-    .owl-dots {
-        display: none;
+    .slick-dots {
+        bottom: -90px;
     }
 
-    .owl-prev span,
-    .owl-next span {
-        font-size: 3rem;
-    }
-
-    .owl-prev {
-        left: 2rem;
-    }
-
-    .owl-next {
-        right: 2rem;
-    }
 
     h2,
     h3 {
@@ -891,12 +925,16 @@ i.fa-link {
 
 @media only screen and (max-width: 375px) {
     .custom_overlay .carousel-title {
-        font-size: 10px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .custom_overlay .carousel-paragraph {
+        font-size: 15px;
     }
 
     .custom_overlay p {
-        font-size: 10px;
-        margin-bottom: 3px;
+
         width: 84%;
     }
 
@@ -960,29 +998,20 @@ i.fa-link {
     }
 
     .carousel-button {
-        -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(0.5);
         padding: 10px;
         margin: 0;
         line-height: 1em;
+        font-size: 10px;
     }
 
-    .owl-dots {
+
+    .slick-prev:before,
+    .slick-next:before {
         display: none;
     }
 
-    .owl-prev span,
-    .owl-next span {
-        font-size: 2rem;
-    }
-
-    .owl-prev {
-        left: 1rem;
-    }
-
-    .owl-next {
-        right: 1rem;
+    .slick-dots {
+        bottom: -90px;
     }
 
     h2,
