@@ -173,11 +173,11 @@ i.fa-home:active {
 }
 
 .owl-prev {
-    left: 6rem;
+    left: 10rem;
 }
 
 .owl-next {
-    right: 6rem;
+    right: 10rem;
 }
 
 .owl-prev span,
