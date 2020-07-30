@@ -264,6 +264,7 @@ h3 {
     overflow: hidden;
     min-width: 30%;
     overflow: hidden;
+    max-height: 300px;
     margin-top: 65px;
     text-align: center;
 }
@@ -275,7 +276,7 @@ h3 {
 
 .cards .item img {
 
-    max-height: 300px;
+    max-height: inherit;
     opacity: 0.5;
 
 }
