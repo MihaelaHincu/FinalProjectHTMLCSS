@@ -402,13 +402,12 @@ i.fa-angle-down,
 
 .FAQ {
     background-color: #c1cada;
-    min-height: 800px;
-
+    padding-bottom: 90px;
+    padding-top: 90px;
 }
 
 .FAQ h2 {
     padding-bottom: 50px;
-    padding-top: 90px;
     color: black;
     font-size: 26px;
     font-weight: bold;
