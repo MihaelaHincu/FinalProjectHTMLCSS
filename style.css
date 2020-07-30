@@ -484,11 +484,14 @@ i.fa-angle-down,
 }
 
 .accordion-paragraph {
-    padding: 20px;
+    padding: 30px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .smaller-text {
     font-size: small;
@@ -550,7 +553,13 @@ footer {
     font-size: 18px;
 }
 
-.list-one {}
+.list-one {
+    padding-right: 50px
+}
+
+/* .pdr {
+    padding-right: 100px
+} */
 
 .red-color a {
     color: #804454
@@ -579,15 +588,18 @@ i.fa-link {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #222323;
     height: 140px;
-    width: 77%;
-    background-image: url(img/FOOTERimg.jpg);
-    opacity: 0.5;
+    width: 100%;
+    background-image: url(img/FOOTERimg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .last p {
     font-size: 16px;
+    opacity: 30%
 }
 
 .thanks {
